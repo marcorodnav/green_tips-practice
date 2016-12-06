@@ -135,3 +135,109 @@ body {
 #contenedor-conozcanos img{
     margin-bottom: 30px;
 }
+
+#contenido {
+    position: relative;
+    display: block;
+    background-color: #f9f9f9; 
+    box-sizing: border-box;
+    color: #8c8c8c;
+}
+
+#contenido h2 {
+    font-weight: 500;
+    font-size: 20px;
+    color: #8dc63f;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+}
+
+#contenido ul {
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+
+#contenido li {
+    position: relative;
+    display: block;
+    padding: 10px 5px;
+    font-size: 15px;
+}
+
+.bullet-verde {
+    position: relative;
+    display: inline-block;
+    border-radius: 50%;
+    width:8px;
+    height: 8px;
+    margin-right: 10px;
+    background: url(../imagenes/bullet.png) no-repeat left center;
+}
+
+#contenido p {
+    font-size: 15px;
+    line-height: 25px;
+}
+
+#contenido p span {
+    color: #9dca5d;
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+#contenido .ofertas a {
+    position: relative;
+    display: block;
+    text-decoration: underline;
+    color: #8dc63f;
+    font-weight: 500;
+    font-size: 15px;
+    padding-top: 10px
+}
+
+#contenido .ofertas a:last-child {
+    font-weight: 300;
+    margin-bottom: 15px
+}
+
+footer {
+    position: relative;
+    display: block;
+    background-color: #262626;
+    box-sizing: border-box;
+}
+
+footer input[type=text],
+footer input[type=password] {
+    position: relative;
+    display: inline-block;
+    border: none;
+    font-size: 15px;
+    padding: 10px 5px;
+    margin: 20px 10px;
+}
+
+footer button {
+    position: relative;
+    display: block;
+    border: none;
+    color: #fff;
+    background-color: #8cc63e;
+    padding: 8px 5px;
+    margin: 20px 10px;
+    font-weight: 500;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+footer .info-contacto p {
+    font-size: 15px;
+    color: #fff;
+}
+
+footer .info-contacto span {
+    text-decoration: underline;
+    color: #8dc63f;
+    font-weight: 500;
+}
